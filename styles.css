@@ -1,3 +1,10 @@
-* 
+body {
 
-::-webkit-validation-bubble-text-block
+}
+
+#container {
+    background: light gray;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
