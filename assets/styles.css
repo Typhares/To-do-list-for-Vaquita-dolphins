@@ -1,12 +1,10 @@
-body {
 
-}
+
 
 #container {
-    background: light gray;
+    margin:0 auto;
     width: 360px;
-    margin: 0 auto;
-    border: 2px solid gray;
+    border: 1px solid gray;
 }
 
 #text-input {
@@ -19,7 +17,15 @@ body {
 }
 
 li {
+    list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px solid red;
+    margin: 7px;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+
 }
